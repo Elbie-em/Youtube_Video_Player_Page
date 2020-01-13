@@ -1,0 +1,55 @@
+
+#nav_bar{
+	position: fixed; 
+	top: 0px;
+	left: 0px;
+
+}
+#nav_elements{
+	position: relative;left: 80px;
+}
+.nav_icons {
+	width: 16px;
+	height: 16px;
+	position: relative; 
+	top: 3px;
+	left: 5px; 
+
+}
+#youtube_logo{
+	width: 100px;
+    height: 30px;
+    position: relative; top: 10px;
+}
+#nav_signin_button{
+
+	height: 34px;
+	width: 80px;
+	background-color:  rgb(22, 122, 198);
+	font-size: 100%;
+	color: white;
+	
+	border-radius: 10%; 
+	border-style: none;
+
+}
+#nav__search_button{
+	height: 34px;
+	width: 90px;
+	position: relative;
+	top:1px;
+	right:4px;
+	
+
+
+}
+#nav_input_field{
+	height: 27px;
+    width: 700px;
+    font-size: 16px;
+
+}
+.youtube_logo_spacing{
+	margin-left: 20px;
+	margin-right: 20px;
+}
