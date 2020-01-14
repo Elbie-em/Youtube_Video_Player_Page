@@ -1,24 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <title></title>
-  </head>
-  <body>
 
-  	<nav id="nav_bar">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <title>YouTubeVideoPage</title>
+</head>
+
+<body>
+  <header>
+    <nav id="nav_bar">
       <div id="nav_elements">
-        <span class="youtube_logo_spacing"><img src="assets/menu_icon.png" class="nav_icons"></span>
+        <span class="youtube_logo_spacing"><img src="assets/menu_icon.png" class="icons"></span>
         <img src="assets/youtube_logo.png" id="youtube_logo">
         <input type="text" name="search_video" placeholder="Search" id="nav_input_field">
-        <button id="nav__search_button"><img src="assets/search_button_icon.png" class="nav_icons"></button>
-        <span class="youtube_logo_spacing"><img src="assets/upload_image_button.png" class="nav_icons"></span>
+        <button id="nav__search_button"><img src="assets/search_button_icon.png" class="icons"></button>
+        <span class="youtube_logo_spacing"><img src="assets/upload_image_button.png" class="icons"></span>
         <button id="nav_signin_button">Sign in</button>
       </div>
-  		
+    </nav>
+  </header>
 
-  	</nav>
+  <section id="main_section">
+    <div id="embedded_video_section">
+      <iframe width="740" height="460" src="https://www.youtube.com/embed/pDPdRYF7hTQ" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  </body>
+      <div class="embedded_video_info">
+        <h3>Golden Buzzer: Kodi Lee Wows You With A Historical Music Moment! - AGT Talent 2019</h3>
+        <div id="embedded_video_account_info">
+          <div><img id="account_img" src="assets/agt_logo.jpeg"></div>
+          <div id="subscription_info">
+            <h4>Americas Got Talent</h4>
+            <span><button class="subscription_btn"><img class="subscription_btn"
+                  src="assets/youtube_subscribe_button.png">
+              </button>
+              <label id="subs" for="subscriptions">1.18m</label>
+              <label id="views" for="views">23,090,789 views</label>
+            </span>
+          </div>
+        </div>
+        <hr class="division">
+        <div id="btns_social">
+          <span>
+            <button class="social_btns"><img class="social_icons" src="assets/add_logo.png"> Add</button>
+            <button class="social_btns"><img class="social_icons" src="assets/share_logo.png"> Share</button>
+            <button class="social_btns"><img class="social_icons" src="assets/more_logo.png"> More</button>
+            <div id="likes">
+              <button class="social_btns"><img class="social_icons" src="assets/like_logo.png"> Like</button>
+              <button class="social_btns"><img class="social_icons" src="assets/dislike_logo.png"> Dislike</button>
+            </div>
+          </span>
+        </div>
+      </div>
+      <div class="embedded_video_info">1</div>
+      <div class="embedded_video_info">1</div>
+
+    </div>
+
+
+
+
+  </section>
+
+</body>
+
 </html>
