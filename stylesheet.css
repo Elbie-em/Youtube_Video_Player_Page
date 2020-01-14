@@ -7,7 +7,9 @@ body{
 	background-color:#F1F1F1;
 }
 
-
+p{
+font-size: 13px;
+}
 
 #nav_bar{
 	position: fixed; 
@@ -89,8 +91,8 @@ body{
 	width:100%;
 	height: 155px;
 	background: white;
-	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 	box-shadow: 5px 5px 10px #6B6B6B;			
 }
 .embedded_video_info h3{
@@ -181,4 +183,36 @@ word-spacing: 5px;
 .social_icons{
 	width: 15px;
 	height: 15px;
+}
+
+
+
+.loading_page{
+	text-align: center;
+	border: 5px solid #F1F1F1;
+	border-radius: 50%;
+	width:30px;
+	height: 30px;
+	border-top:5px solid gray;
+}
+
+#loading{
+	position: relative;
+	top:60px;
+	left:348px;
+	color:grey;
+	font-size:13px;
+}
+
+.embedded_video_info .loading_page{
+	position: relative;
+	top:60px;
+	left:350px;
+	color: gray;
+	animation: circle 1s linear infinite;
+}
+
+@keyframes circle{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
 }
