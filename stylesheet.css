@@ -1,5 +1,4 @@
 *{	
-	font-style: Roboto, arial, sans-serif;
 	box-sizing: border-box;
 }
 
@@ -141,8 +140,8 @@ nav li{
 #account_img{
 	height: 85px;
 	width: 85px;
-	padding-top: 10px;
-	padding-left: 30px;
+	margin-top: 10px;
+	margin-left: 40px;
 }
 
 #subs{
@@ -162,22 +161,23 @@ nav li{
 	font-size: 18px;
 }
 
-.division{
+#division{
 	position: relative;
 	bottom: 50px;
-	width:90%;
+	width:95%;
 	color:#ACACAC;
 }
 
 #btns_social{
+	display: inline;
 	position: relative;
 	bottom: 53px;
-	left:40px;
-	width: 85%;
+	left:5px;
 }
 
 #likes{
 	float: right;
+	margin-right:10px;
 }
 
 .social_btns{
@@ -185,7 +185,7 @@ font-size: 13px;
 font-weight: 300;
 color: gray;
 height: 30px;
-width:100px;
+width:90px;
 border-style: none;
 background: white;
 word-spacing: 5px;
