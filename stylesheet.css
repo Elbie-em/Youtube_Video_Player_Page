@@ -1,12 +1,18 @@
 *{	
 	font-style: Roboto, arial, sans-serif;
-	
+	box-sizing: border-box;
 }
 
 body{
 	background-color:#F1F1F1;
 }
 
+#container{
+	position: relative;
+	left : 100px; 
+	width:90%;
+	
+}
 
 p{
 font-size: 13px;
@@ -18,25 +24,23 @@ font-size: 13px;
 	left: 0px;
 	height: 55px;
 	background-color: white;
-	width: 100vw;
+	width: 100%;
 	z-index: 1;
-
+	overflow: hidden;
+	
 
 }
+
 nav li{
 	display: inline;
 	position: relative;
 	bottom: 10px;
 	color: white;
 	margin: 10px;
+	left: 80px;
 
 }
-#nav_elements{
-	position: relative;
-	left: 65px;
-	
 
-}
 
 .icons {
 	width: 16px;
@@ -52,7 +56,6 @@ nav li{
 	top: 10px;
 }
 #nav_signin_button{
-
 	height: 34px;
 	width: 80px;
 	background-color:  rgb(22, 122, 198);
@@ -60,23 +63,24 @@ nav li{
 	color: white;
 	border-radius: 10%; 
 	border-style: none;
+	
 }
 
 #nav__search_button{
-	height: 33px;
+	height: 27px;
 	width: 90px;
 	position: relative;
-	top:2px;
+	top:1px;
 	right:25px;
 }
 
 #nav_input_field{
+	
 	height: 27px;
-    width: 700px;
+    width: 50vw;
 	font-size: 16px;
 	
 }
-
 
 
 #main_section{
@@ -84,17 +88,14 @@ nav li{
 	top:50px;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
-	width:100vw;
-	height: 75%;
-
-	
+	width:100%;	
 }
 
 #embedded_video_section{
 	display: grid;
 	grid-template-rows: 2fr 1fr 1fr 1fr;
-	width: 940px;
-	height:460px;
+	width: 740px;
+	height: 360px;
 	margin-right: 8px;
 }
 
@@ -114,7 +115,7 @@ nav li{
 	position: relative;
 	bottom: 30px;
 	display: grid;
-	width: 85%;
+	width: 100%;
 	grid-template-columns: 1fr 4fr;
 }
 
@@ -127,7 +128,7 @@ nav li{
 	display: grid;
 	grid-auto-rows:1fr 1fr ;
 	height:50px;
-	width: 590px;
+	width: 95%;
 }
 
 .subscription_btn{
@@ -158,7 +159,7 @@ nav li{
 #views{
 	float:right;
 	color: gray;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .division{
@@ -210,7 +211,7 @@ word-spacing: 5px;
 #loading{
 	position: relative;
 	top:60px;
-	left:450px;
+	left:350px;
 	color:grey;
 	font-size:13px;
 }
@@ -218,7 +219,7 @@ word-spacing: 5px;
 .embedded_video_info .loading_page{
 	position: relative;
 	top:60px;
-	left:450px;
+	left:350px;
 	color: gray;
 	animation: circle 1s linear infinite;
 }
@@ -230,7 +231,7 @@ word-spacing: 5px;
 #video_sidebar{
 	background-color: white;
 	box-shadow: 5px 5px 10px #6B6B6B;
-	
+	width:100%;	
 }
 .footer_buttons_a{
 	width: 159px;
@@ -248,7 +249,7 @@ word-spacing: 5px;
 footer{
 	position: relative;
 	top: 200px;
-	width: 100vw;
+	width: 100%;
 }
 footer a {
 	text-decoration: none;
@@ -260,7 +261,7 @@ footer li{
 #empty_space {
 	position: relative;
 	top: 100px;
-	width: 100vw;
+	width: 100%;
 	height: 100px;
 	background-color:#F1F1F1;
 
