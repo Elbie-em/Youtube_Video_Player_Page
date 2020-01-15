@@ -17,15 +17,26 @@ font-size: 13px;
 	left: 0px;
 	height: 50px;
 	background-color: white;
-	width: 100%;
+	width: 100vw;
 	z-index: 1;
+
+
+}
+nav li{
+	display: inline;
+	position: relative;
+	bottom: 10px;
+	color: white;
+	margin: 10px;
 
 }
 #nav_elements{
 	position: relative;
 	left: 65px;
 	
+
 }
+
 .icons {
 	width: 16px;
 	height: 16px;
@@ -44,7 +55,7 @@ font-size: 13px;
 	height: 34px;
 	width: 80px;
 	background-color:  rgb(22, 122, 198);
-	font-size: 100%;
+	font-size: 16px;
 	color: white;
 	border-radius: 10%; 
 	border-style: none;
@@ -54,8 +65,8 @@ font-size: 13px;
 	height: 33px;
 	width: 90px;
 	position: relative;
-	top:1px;
-	right:4px;
+	top:2px;
+	right:25px;
 }
 
 #nav_input_field{
@@ -65,10 +76,7 @@ font-size: 13px;
 	
 }
 
-.youtube_logo_spacing{
-	margin-left: 20px;
-	margin-right: 20px;
-}
+
 
 #main_section{
 	position: relative;
@@ -82,7 +90,7 @@ font-size: 13px;
 #embedded_video_section{
 	display: grid;
 	grid-template-rows: 2fr 1fr 1fr 1fr;
-	width: 740px;
+	width: 940px;
 	height:460px;
 	margin-right: 8px;
 }
@@ -147,7 +155,7 @@ font-size: 13px;
 #views{
 	float:right;
 	color: gray;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .division{
@@ -199,7 +207,7 @@ word-spacing: 5px;
 #loading{
 	position: relative;
 	top:60px;
-	left:348px;
+	left:450px;
 	color:grey;
 	font-size:13px;
 }
@@ -207,7 +215,7 @@ word-spacing: 5px;
 .embedded_video_info .loading_page{
 	position: relative;
 	top:60px;
-	left:350px;
+	left:450px;
 	color: gray;
 	animation: circle 1s linear infinite;
 }
@@ -215,4 +223,9 @@ word-spacing: 5px;
 @keyframes circle{
 	0%{transform: rotate(0deg);}
 	100%{transform: rotate(360deg);}
+}
+#video_sidebar{
+	background-color: white;
+	box-shadow: 5px 5px 10px #6B6B6B;
+	width: 35vw;
 }
