@@ -7,6 +7,7 @@ body{
 	background-color:#F1F1F1;
 }
 
+
 p{
 font-size: 13px;
 }
@@ -15,7 +16,7 @@ font-size: 13px;
 	position: fixed; 
 	top: 0px;
 	left: 0px;
-	height: 50px;
+	height: 55px;
 	background-color: white;
 	width: 100vw;
 	z-index: 1;
@@ -44,7 +45,7 @@ nav li{
 	top: 3px;
 	left: 5px; 
 }
-#youtube_logo{
+.youtube_logo{
 	width: 100px;
     height: 30px;
 	position: relative;
@@ -83,7 +84,9 @@ nav li{
 	top:50px;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
-	width:100%;
+	width:100vw;
+	height: 75%;
+
 	
 }
 
@@ -227,5 +230,47 @@ word-spacing: 5px;
 #video_sidebar{
 	background-color: white;
 	box-shadow: 5px 5px 10px #6B6B6B;
-	width: 35vw;
+	
+}
+.footer_buttons_a{
+	width: 159px;
+	height: 26px;
+	background-color: #F8F8F8;
+	border-radius: 5%;
+
+}
+.footer_buttons_b{
+	width: 73px;
+	height:26px;
+	background-color: #F8F8F8;
+	border-radius: 5%;
+}
+footer{
+	position: relative;
+	top: 200px;
+	width: 100vw;
+}
+footer a {
+	text-decoration: none;
+}
+footer li{
+	display: inline;
+	margin: 10px;
+}
+#empty_space {
+	position: relative;
+	top: 100px;
+	width: 100vw;
+	height: 100px;
+	background-color:#F1F1F1;
+
+}
+.footer_link_a{
+	font-weight: bold;
+	font-size: 16px;
+	color: black;
+}
+.footer_link_b{
+	font-size: 13px;
+	color: gray;
 }
