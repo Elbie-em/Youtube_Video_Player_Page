@@ -32,7 +32,7 @@ This section basically contains links to outside pages.
 
 ## Live Demo
 
-[Click here](https://rawcdn.githack.com/Elbie-em/Youtube_Video_Player_Page/e1f4dfc122f5f5188af5263a82de09b8c4d8e302/index.html) to see a live demo.
+[Click here](https://htmlpreview.github.io/?https://github.com/Elbie-em/Youtube_Video_Player_Page/blob/youtube_page_clone_feature_b/index.html) to see a live demo.
 
 ###### Author 1
 
