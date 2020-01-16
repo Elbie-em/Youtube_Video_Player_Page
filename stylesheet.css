@@ -6,6 +6,7 @@ a{
 cursor: pointer;
 }
 
+
 button{
 	cursor: pointer;
 }
@@ -249,14 +250,21 @@ word-spacing: 5px;
 .footer_buttons_a{
 	width: 159px;
 	height: 26px;
-	background-color: #F8F8F8;
-	border-radius: 5%;
+	margin-top:10px;	
 
+}
+.footer_buttons_a:hover{
+	border: 2px solid grey;
+	border-radius: 5%;
 }
 .footer_buttons_b{
 	width: 73px;
 	height:26px;
-	background-color: #F8F8F8;
+	margin-top:5px;	
+}
+
+.footer_buttons_b:hover{
+	border: 2px solid grey;
 	border-radius: 5%;
 }
 footer{
