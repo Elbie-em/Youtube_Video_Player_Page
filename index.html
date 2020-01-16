@@ -1,10 +1,293 @@
-<<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
 
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <title>YouTubeVideoPage</title>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <nav id="nav_bar">
+        <ul>
+          <li><img src="assets/menu_icon.png" class="icons" alt="menu_icon"></li>
+          <li><img src="assets/youtube_logo.png" class="youtube_logo" alt="youtube_logo"></li>
+          <li><input type="text" name="search_video" placeholder="Search" id="nav_input_field"></li>
+          <li><button id="nav__search_button"><img src="assets/search_button_icon.png" class="icons"
+                alt="search_button_icon"></button></li>
+          <li><img src="assets/upload_image_button.png" class="icons" alt="upload_image_button"></li>
+          <li><button id="nav_signin_button">Sign in</button></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="main_section">
+      <div id="embedded_video_section">
+        <iframe width="740" height="360" src="https://www.youtube.com/embed/pDPdRYF7hTQ"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="embedded_video_info">
+          <h3>Golden Buzzer: Kodi Lee Wows You With A Historical Music Moment! - AGT Talent 2019</h3>
+          <div id="embedded_video_account_info">
+            <div><img id="account_img" src="assets/agt_logo.jpeg" alt="agt_logo"></div>
+            <div id="subscription_info">
+              <h4>Americas Got Talent</h4>
+              <span><button class="subscription_btn"><img class="subscription_btn"
+                    src="assets/youtube_subscribe_button.png" alt="subscription_button">
+                </button>
+                <label id="subs">1.18m</label>
+                <label id="views">23,090,789 views</label>
+              </span>
+            </div>
+          </div>
+          <hr id="division">
+          <div id="btns_social">
+            <button class="social_btns"><img class="social_icons" src="assets/add_logo.png" alt="add_icon"> Add</button>
+            <button class="social_btns"><img class="social_icons" src="assets/share_logo.png" alt="share_icon">
+              Share</button>
+            <button class="social_btns"><img class="social_icons" src="assets/more_logo.png" alt="more_icon">
+              More</button>
+            <div id="likes">
+              <button class="social_btns"><img class="social_icons" src="assets/like_logo.png" alt="like_icon">
+                Like</button>
+              <button class="social_btns"><img class="social_icons" src="assets/dislike_logo.png" alt="dislike_icon">
+                Dislike</button>
+            </div>
+          </div>
+        </div>
+        <div class="embedded_video_info">
+          <h3>Published on May 28th 2019</h3>
+          <p>
+            This will bring you to TEARS! Gabrielle Union uses her FIRST
+            golden buzzer and creates one of the most emotional moments in AGT history.
+            In season 14, NBC's America's Got Talent follows Simon Cowell, Julianne Hough,
+            Gabrielle Union, Howie Mandel, and host Terry Crews in their talent search,
+            showcasing unique performers from across the country.
+            Creator and Executive Producer Simon Cowell returns to the judges' panel along
+            with Howie Mandel. Also joining the panel this year are two fresh faces - award-winning
+            actress, author and producer Gabrielle Union and Emmy Award-winning choreographer, actress,
+            singer and dancer Julianne Hough.
+          </p>
+        </div>
+        <div class="embedded_video_info">
+          <div class="loading_page"></div>
+          <div id="loading">Loading...</div>
+        </div>
+      </div>
+      <div id="video_sidebar">
+        <table>
+          <tr>
+            <th>Upnext</th>
+            <th>Auto-Play</th>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/watch?v=AIXgLR4wFuU">
+                <img src="assets/thumbnail_image.png" alt="kodi_video" class="thumbnail"></a>
+            </td>
+            <td>
+              <h5>Kodi Lee... Wows audience with songs from way back</h5>
+              <p>American's Got Talent<br />223,984 views</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <footer>
+      <div class="embedded_video_info">
+        <ul>
+          <li><img src="assets/youtube_logo.png" class="youtube_logo" alt="youtube_logo"></li>
+          <li><a href="#"><img src="assets/language_icon.png" alt="language_icon" class="footer_buttons_a"></a></li>
+          <li><a href="#"><img src="assets/location_icon.png" alt="location_icon" class="footer_buttons_a"></a></li>
+          <li><a href="#"><img src="assets/restriction_icon.png" alt="restriction_icon" class="footer_buttons_a"></a></li>
+          <li><a href="#"><img src="assets/history_icon.png" alt="history_icon" class="footer_buttons_b"></a></li>
+          <li><a href="#"><img src="assets/help_icon.png" alt="help_icon" class="footer_buttons_b"></a></li>
+
+        </ul>
+        <hr style="width: 95%;">
+        <ul>
+          <li><a href="#" class="footer_link_a">About</a></li>
+          <li><a href="#" class="footer_link_a">Press</a></li>
+          <li><a href="#" class="footer_link_a">Copyright</a></li>
+          <li><a href="#" class="footer_link_a">Creators</a></li>
+          <li><a href="#" class="footer_link_a">Advertise</a></li>
+          <li><a href="#" class="footer_link_a">Developers</a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#" class="footer_link_b">Terms</a></li>
+          <li><a href="#" class="footer_link_b">Privacy</a></li>
+          <li><a href="#" class="footer_link_b">Policy & Safety</a></li>
+          <li><a href="#" class="footer_link_b">Test New feature</a></li>
+        </ul>
+      </div>
+      <div id="empty_space"></div>
+
+    </footer>
+  </div>
+
+</body>
+
 </html>
