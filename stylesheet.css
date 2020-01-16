@@ -2,6 +2,14 @@
 	box-sizing: border-box;
 }
 
+a{
+cursor: pointer;
+}
+
+button{
+	cursor: pointer;
+}
+
 body{
 	background-color:#F1F1F1;
 }
@@ -232,6 +240,11 @@ word-spacing: 5px;
 	background-color: white;
 	box-shadow: 5px 5px 10px #6B6B6B;
 	width:100%;	
+}
+
+.thumbnail{
+	width:168px;
+	height: 94px;
 }
 .footer_buttons_a{
 	width: 159px;
