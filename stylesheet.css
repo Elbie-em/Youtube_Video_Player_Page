@@ -7,9 +7,9 @@ body{
 }
 
 #container{
-	position: relative;
-	left : 100px; 
 	width:90%;
+	margin-left:auto;
+    margin-right:auto;
 	
 }
 
