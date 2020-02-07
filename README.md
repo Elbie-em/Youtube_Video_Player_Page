@@ -5,6 +5,8 @@ using css for styling.
 
 With Reference to the actual youtube page , there are a number of elements that it consists of which some have been implemented.
 
+![screenshot](./assets/screenshot_img.png)
+
 ## Getting Started
 
 Below you will see the general components of this page.
