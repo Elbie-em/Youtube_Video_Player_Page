@@ -1,6 +1,6 @@
 # Youtube_Video_Player_Page_Clone
 
-This collabaorative project is building an HTML document that matches the structure of youtube video player page
+> This collabaorative project is building an HTML document that matches the structure of youtube video player page
 using css for styling.
 
 With Reference to the actual youtube page , there are a number of elements that it consists of which some have been implemented.
