@@ -40,18 +40,19 @@ This section basically contains links to outside pages.
 
 [Click here](https://htmlpreview.github.io/?https://github.com/Elbie-em/Youtube_Video_Player_Page/blob/youtube_page_clone_feature_b/index.html) to see a live demo.
 
-###### Author 1
+## Authors
 
-Elbie Moonga
-[GitHub](https://github.com/Elbie-em)
-[Twitter](https://twitter.com/ElbieEm)
-[LinkedIn](https://www.linkedin.com/in/elbie-moonga-253bbb12b/)
+👤 **Elbie Moonga**
+- GitHub: [@Elbie-Em](https://github.com/Elbie-em)
+- Twitter: [ElbieEm](https://twitter.com/ElbieEm)
+- LinkedIn: [elbie-moonga](https://www.linkedin.com/in/elbiemoonga/)
 
-###### Author 2
-Ezeokwelume Kosisochukwu Stephen
-[GitHub](https://github.com/KossySteve)
-[Twitter](https://twitter.com/EzeSteve3/)
-[LinkedIn](https://www.linkedin.com/in/steve-ez-b090ba198/)
+👤 **Ezeokwelume Kosisochukwu Stephen**
+
+- Github: [@KossySteve](https://github.com/KossySteve)
+- Twitter: [@EzeSteve3](https://twitter.com/EzeSteve3/)
+- Linkedin: [Steve Ez](https://www.linkedin.com/in/steve-ez-b090ba198/)
+
 
 ## Contributions
 
